@@ -10,3 +10,9 @@ df = pd.DataFrame(
     }
 )
 print(df)
+# Each column in a DataFrame is a Series
+print(df["name"])  # printing series
+
+# max age
+print(df["age"].max())
+print(df.describe())
