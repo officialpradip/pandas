@@ -9,3 +9,4 @@ demo = pd.read_csv("./train.csv")
 # print(demo.tail(3))
 
 print(demo.dtypes)
+print(demo.info())
