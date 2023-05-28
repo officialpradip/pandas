@@ -6,3 +6,7 @@ print(demo.head(5))
 ages = demo[["Age", "Sex"]]
 print(ages)
 print(ages.shape)
+
+# filter columns
+thirty_fice = demo[demo["Age"] > 35]
+print("thisis++++++", thirty_fice)
