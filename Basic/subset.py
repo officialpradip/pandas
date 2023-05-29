@@ -10,3 +10,9 @@ print(ages.shape)
 # filter columns
 thirty_fice = demo[demo["Age"] > 35]
 print("thisis++++++", thirty_fice)
+
+
+# loc
+loc_try = demo.loc[1]
+print("----loc----")
+print(loc_try)
